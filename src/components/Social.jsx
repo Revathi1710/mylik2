@@ -2,14 +2,14 @@ import React from "react";
 import whatsapp from "../assets/images/social/whatsapp.jpg";
 import instagram from "../assets/images/social/instagram.jpg";
 import facebook from "../assets/images/social/facebook.jpg";
-// import buy_now from "../assets/images/buy.png";
+import buy_now from "../assets/images/social/buy.png";
 
 export default function Social() {
   return (
     <div className="social">
       <a href="https://mayilmark.com/" target="_blank">
         <div className="icon-4">
-          {/* <img className="icon " src={buy_now} alt="" /> */}
+          { <img className="icon " src={buy_now} alt="" /> }
         </div>
       </a>
       <div>

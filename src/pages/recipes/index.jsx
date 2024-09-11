@@ -17,7 +17,9 @@ import VERMICELLI from "../../assets/images/recipes/VERMICELLI.jpg";
 import murukku from "../../assets/images/recipes/Murukku.jpg";
 import pappad from "../../assets/images/recipes/pappad.jpg";
 import moringa from "../../assets/images/recipes/Moringa.jpg";
-// import banner from "../../assets/images/recipes/banner.png";
+ import banner from "../../assets/images/recipes/banner.png";
+ import bannertab from "../../assets/images/recipes/bannerTab.png";
+ import bannermobile from "../../assets/images/recipes/bannerMobile.png";
 import element from "../../assets/images/recipes/element.png";
 import edge2 from "../../assets/images/about/edge2.png";
 import ravapaysam from "../../assets/images/recipes/ravapaysam.jpg";
@@ -65,7 +67,9 @@ function Recipes() {
     <div className="recipes_main_wrapper">
       <Social />
       <div className="recipe_banner_wrapper">
-        {/* <img src={banner} alt="banner" /> */}
+        { <img src={banner} alt="banner" className="aboutimagedesk" /> }
+        { <img src={bannertab} alt="banner"  className="aboutimagetab"/> }
+        { <img src={bannermobile} alt="banner"  className="aboutimagemobile"/> }
       </div>
       <div className="header">
         <img src={element} alt="banner" className="left_element" />
