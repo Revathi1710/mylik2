@@ -8,15 +8,15 @@ import banner2 from "../../assets/images/home/banner1_1.png";
 import ricebag1 from "../../assets/images/home/ricebag1.png";
 import mobilebanner1 from "../../assets/images/home/banner1m.png";
 
-import deskbanner1 from "../../assets/images/home/banner1d.png";
+import deskbanner1 from "../../assets/images/home/desk1.jpg";
 import tabbanner1 from "../../assets/images/home/banner1t.png";
 import mobilebanner2 from "../../assets/images/home/banner2m.png";
 
-import deskbanner2 from "../../assets/images/home/banner2d.png";
+import deskbanner2 from "../../assets/images/home/desk2.jpg";
 import tabbanner2 from "../../assets/images/home/banner2t.png";
 import mobilebanner3 from "../../assets/images/home/banner3m.png";
 
-import deskbanner3 from "../../assets/images/home/banner3d.png";
+import deskbanner3 from "../../assets/images/home/desk3.jpg";
 import tabbanner3 from "../../assets/images/home/banner3t.png";
 
 import ricebag2 from "../../assets/images/home/ricebag2.png";
