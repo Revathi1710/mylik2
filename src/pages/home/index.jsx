@@ -88,13 +88,14 @@ const Home = () => {
       {/* <WhatsAppLink /> */}
       <Social />
       <div className="carousel_wrapper">
+        <div className="desktop-banners">
       <Carousel 
       additionalTransfrom={0}
       arrows={false}
       autoPlay={true}
       autoPlaySpeed={3000}
       centerMode={false}
-      className="carousel_comp desktop-banners"
+      className="carousel_comp "
       containerClass="container"
       dotListClass="dots"
       draggable
@@ -127,23 +128,19 @@ const Home = () => {
         <img src={deskbanner1} alt="Desktop Banner 1" />
         <img src={deskbanner2} alt="Desktop Banner 2" />
         <img src={deskbanner3} alt="Desktop Banner 3" />
-        <img src={mobilebanner1} alt="Mobile Banner 1" />
-        <img src={mobilebanner2} alt="Mobile Banner 2" />
-        <img src={mobilebanner3} alt="Mobile Banner 3" />
-        <img src={tabbanner1} alt="Tablet Banner 1" />
-        <img src={tabbanner2} alt="Tablet Banner 2" />
-        <img src={tabbanner3} alt="Tablet Banner 3" />
+        
     
 
      
-    </Carousel>
+    </Carousel></div>
+    <div className="tab-banners">
     <Carousel
       additionalTransfrom={0}
       arrows={false}
       autoPlay={true}
       autoPlaySpeed={3000}
       centerMode={false}
-      className="carousel_comp tab-banners"
+      className="carousel_comp "
       containerClass="container"
       dotListClass="dots"
       draggable
@@ -181,14 +178,15 @@ const Home = () => {
       
 
       
-    </Carousel>
+    </Carousel></div>
+    <div className="mobile-banners">
     <Carousel
       additionalTransfrom={0}
       arrows={false}
       autoPlay={true}
       autoPlaySpeed={3000}
       centerMode={false}
-      className="carousel_comp mobile-banners"
+      className="carousel_comp"
       containerClass="container"
       dotListClass="dots"
       draggable
@@ -224,7 +222,7 @@ const Home = () => {
         <img src={mobilebanner2} alt="Mobile Banner 2" />
         <img src={mobilebanner3} alt="Mobile Banner 3" />
      
-    </Carousel>
+    </Carousel></div>
       </div>
       <div className="home_main_section">
         <div className="who_we_are_wrapper">
