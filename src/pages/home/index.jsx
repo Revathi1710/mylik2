@@ -10,7 +10,7 @@ import mobilebanner1 from "../../assets/images/home/banner1m.png";
 
 import deskbanner1 from "../../assets/images/home/desk1.jpg";
 import tabbanner1 from "../../assets/images/home/banner1t.png";
-import mobilebanner2 from "../../assets/images/home/banner2m.png";
+import mobilebanner2 from "../../assets/images/home/bannerm2.png";
 
 import deskbanner2 from "../../assets/images/home/desk2.jpg";
 import tabbanner2 from "../../assets/images/home/banner2t.png";
@@ -125,9 +125,9 @@ const Home = () => {
     >
       {/* Desktop Banners */}
      
-        <img src={deskbanner1} alt="Desktop Banner 1" />
-        <img src={deskbanner2} alt="Desktop Banner 2" />
-        <img src={deskbanner3} alt="Desktop Banner 3" />
+        <img src={deskbanner3} alt="Desktop Banner 1" />
+        <img src={deskbanner1} alt="Desktop Banner 2" />
+        <img src={deskbanner2} alt="Desktop Banner 3" />
         
     
 

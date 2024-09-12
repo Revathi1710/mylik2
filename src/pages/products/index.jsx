@@ -153,8 +153,8 @@ const Products = () => {
       <Social />
       <div className="product_banner_wrapper">
         <img src={banner} className="aboutimagedesk" alt="banner" />
-        <img src={Mobilebanner}  className="aboutimagetab"alt="banner" />
-        <img src={tabBanner} className="aboutimagemobile" alt="banner" />
+        <img src={tabBanner}  className="aboutimagetab"alt="banner" />
+        <img src={ Mobilebanner} className="aboutimagemobile" alt="banner" />
       </div>
 
       <div className="products_wrapper">

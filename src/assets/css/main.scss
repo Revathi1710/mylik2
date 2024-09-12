@@ -1674,5 +1674,69 @@
   align-items: center;
   justify-content: center;
 }
+.bg_header .bg{
+  font-size:3rem;
 }
-
+.products_main_wrapper .rava .left_edge, .products_main_wrapper .flour .left_edge, .products_main_wrapper .vermicelli .left_edge, .products_main_wrapper .pulses .left_edge, .products_main_wrapper .instant_mix .left_edge, .products_main_wrapper .millets .left_edge, .products_main_wrapper .rice .left_edge, .products_main_wrapper .spices .left_edge, .products_main_wrapper .cereal .left_edge, .products_main_wrapper .miscellaneous .left_edge {
+  width: 300px;
+  position: absolute;
+  left: -150px;
+  transform: scaleX(-1);
+  top: -100px;
+}
+.recipes_content_wrapper .ingredient_content{
+  display: block;
+}
+.recipes_content_wrapper .recipe_method ul .watermark{
+ 
+}
+.recipes_content_wrapper .recipe_method {
+  margin-top: 150px;
+}
+.recipes_content_wrapper .ingredient_content .ingredients{
+  max-height: min-content;
+}
+.outlet iframe {
+  width: auto;
+  padding: 10px;
+  margin: 10px;
+  border: 5px solid #fff;
+}
+.outlets_main_wrapper .outlet-1 .left_edge {
+  width: 300px;
+  position: absolute;
+  top: -150px;
+  left: -210px;
+  transform: scaleX(-1);
+}
+.outlets_main_wrapper .outlet-1 {
+  width: 100%;
+   margin:0px; 
+  display:block;
+  align-items: center;
+  position: relative;
+}
+.outlets_main_wrapper .outlet-2 {
+  width: 100%;
+   margin: 0px; 
+   display:block; 
+  align-items: center;
+}
+.outlets_main_wrapper .outlet-2 img{
+  margin:0px;
+}
+.outlet iframe {
+  width: 80%;
+  padding: 10px;
+  margin-left: 15px;
+  border: 5px solid #fff;
+}
+.outlet-img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: relative;
+  margin: 30px 0px 30px 130px;
+  object-fit: cover;
+}
+}

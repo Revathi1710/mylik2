@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import banner from "../../assets/images/outletsBanner.png";
-
+import bannerM from "../../assets/images/outlets/MM mobile 2.png";
+import bannerT from "../../assets/images/outlets/MM tablet 3.png";
 import chennaiOutlet from "../../assets/images/outlets/chenai1.jpg";
 import bangaloreOutlet from "../../assets/images/outlets/bangalore.jpg";
 import theni from "../../assets/images/outlets/theni.jfif";
@@ -29,7 +30,9 @@ const Outlets = () => {
     <div className="outlets_main_wrapper">
       <Social />
       <div className="outlets_banner_wrapper">
-        <img src={banner} alt="banner" />
+        <img src={banner} alt="banner" className="aboutimagedesk"  />
+        <img src={bannerM} alt="banner" className="aboutimagemobile"  />
+        <img src={bannerT} alt="banner"  className="aboutimagetab" />
       </div>
       <div className="header_div">
         <div className="sub-head" style={{ marginTop: "10px" }}>
