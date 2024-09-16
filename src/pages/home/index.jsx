@@ -6,17 +6,17 @@ import banner2 from "../../assets/images/home/banner1_1.png";
  import banner1 from "../../assets/images/home/banner1Mobile.png";
  import banner3 from "../../assets/images/home/banner1Tab.png";
 import ricebag1 from "../../assets/images/home/ricebag1.png";
-import mobilebanner1 from "../../assets/images/home/banner1m.png";
+import mobilebanner1 from "../../assets/images/home/mb1.png";
 
-import deskbanner1 from "../../assets/images/home/desk1.jpg";
+import deskbanner1 from "../../assets/images/home/desk3.jpg";
 import tabbanner1 from "../../assets/images/home/banner1t.png";
-import mobilebanner2 from "../../assets/images/home/bannerm2.png";
+import mobilebanner2 from "../../assets/images/home/banner2m.png";
 
-import deskbanner2 from "../../assets/images/home/desk2.jpg";
+import deskbanner2 from "../../assets/images/home/desk1.jpg";
 import tabbanner2 from "../../assets/images/home/banner2t.png";
 import mobilebanner3 from "../../assets/images/home/banner3m.png";
 
-import deskbanner3 from "../../assets/images/home/desk3.jpg";
+import deskbanner3 from "../../assets/images/home/desk2.jpg";
 import tabbanner3 from "../../assets/images/home/banner3t.png";
 
 import ricebag2 from "../../assets/images/home/ricebag2.png";
@@ -125,9 +125,9 @@ const Home = () => {
     >
       {/* Desktop Banners */}
      
-        <img src={deskbanner3} alt="Desktop Banner 1" />
-        <img src={deskbanner1} alt="Desktop Banner 2" />
-        <img src={deskbanner2} alt="Desktop Banner 3" />
+        <img src={deskbanner1} alt="Desktop Banner 1" />
+        <img src={deskbanner2} alt="Desktop Banner 2" />
+        <img src={deskbanner3} alt="Desktop Banner 3" />
         
     
 
@@ -260,7 +260,7 @@ const Home = () => {
               src={conn}
               alt="connection"
             />
-            <div style={{ margin: "0px 0px 0px -25%" }}>
+            <div style={{ margin: "0px 0px 0px -25%" }} className="aboutsection">
               <BackgroundHeader
                 heading={
                   <p className="sub-head-title">
@@ -332,9 +332,9 @@ const Home = () => {
           alt="connection"
         />
         <div className="top_selling_products">
-          <header className="header">
+          <header className="header topselling">
             <img src={ricebag2} alt="ricebag" className="ricebag1" />
-            <div style={{ margin: "0px 0px 0px 30%" }}>
+            <div style={{ margin: "0px 0px 0px 30%" }} className="topsellsection">
               <BackgroundHeader
                 heading={
                   <p className="sub-head-title">

@@ -1739,4 +1739,102 @@
   margin: 30px 0px 30px 130px;
   object-fit: cover;
 }
+.bg_header {
+  position: relative;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  background: transparent;
+  width: max-content;
+ 
+}
+.home_main_wrapper .home_main_section .who_we_are_wrapper .ricebag1 {
+  width: 150px;
+  position: absolute;
+  left: -10%;
+}
+.home_main_wrapper .home_main_section .who_we_are_wrapper .right_edge {
+  width: 280px;
+  position: absolute;
+  right: -180px;
+  top: -0px;
+}
+.bg_header .bg {
+  position: absolute;
+  font-size: 3rem;
+  font-weight: bold;
+  opacity: 0.1;
+  font-family: "inter", sans-serif;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: rgb(116, 115, 115);
+  letter-spacing: 0.2rem;
+}
+.sub-head-title {
+  font-size: 2rem;
+}
+.bg_header .bg {
+  position: absolute;
+  font-size: 2.5rem;
+  font-weight: bold;
+  opacity: 0.1;
+  font-family: "inter", sans-serif;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: rgb(116, 115, 115);
+  letter-spacing: 0.2rem;
+}
+.topselling .bg_header{
+  margin-left: 0px;
+  margin-top: 80px;
+}
+.recipe-head .bg_header{
+  margin-left: 0px;
+}
+.aboutsection .bg_header{
+  margin-left: 150px;
+}
+.topsellsection{
+  margin:0% !important;
+}
+.home_main_wrapper .home_main_section .top_selling_products .products_section .left_edge {
+  width: 250px;
+  position: absolute;
+  top: -10px;
+  left: -100px;
+  transform: scaleX(-1);
+}
+.products_main_wrapper .rava ul li p, .products_main_wrapper .flour ul li p, .products_main_wrapper .vermicelli ul li p, .products_main_wrapper .pulses ul li p, .products_main_wrapper .instant_mix ul li p, .products_main_wrapper .millets ul li p, .products_main_wrapper .rice ul li p, .products_main_wrapper .spices ul li p, .products_main_wrapper .cereal ul li p, .products_main_wrapper .miscellaneous ul li p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.6rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+
+.products_main_wrapper .rava .left_edge, .products_main_wrapper .flour .left_edge, .products_main_wrapper .vermicelli .left_edge, .products_main_wrapper .pulses .left_edge, .products_main_wrapper .instant_mix .left_edge, .products_main_wrapper .millets .left_edge, .products_main_wrapper .rice .left_edge, .products_main_wrapper .spices .left_edge, .products_main_wrapper .cereal .left_edge, .products_main_wrapper .miscellaneous .left_edge {
+    width: 200px;
+    position: absolute;
+    left: -50px;
+    transform: scaleX(-1);
+    top: -120px;
+}
+.products_main_wrapper .rava .right_edge, .products_main_wrapper .flour .right_edge, .products_main_wrapper .vermicelli .right_edge, .products_main_wrapper .pulses .right_edge, .products_main_wrapper .instant_mix .right_edge, .products_main_wrapper .millets .right_edge, .products_main_wrapper .rice .right_edge, .products_main_wrapper .spices .right_edge, .products_main_wrapper .cereal .right_edge, .products_main_wrapper .miscellaneous .right_edge {
+  width: 200px;
+  position: absolute;
+  right: -60px;
+  top: -120px;
+}
+.ourstoryhead{
+  font-size: 2.5rem !important;
+}
+
 }

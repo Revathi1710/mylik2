@@ -19,7 +19,7 @@ import pappad from "../../assets/images/recipes/pappad.jpg";
 import moringa from "../../assets/images/recipes/Moringa.jpg";
  import banner from "../../assets/images/recipes/banner.png";
  import bannertab from "../../assets/images/recipes/bannerTab.png";
- import bannermobile from "../../assets/images/recipes/bannermb.png";
+ import bannermobile from "../../assets/images/recipes/mb.png";
 import element from "../../assets/images/recipes/element.png";
 import edge2 from "../../assets/images/about/edge2.png";
 import ravapaysam from "../../assets/images/recipes/ravapaysam.jpg";

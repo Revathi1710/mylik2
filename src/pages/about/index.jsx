@@ -36,7 +36,7 @@ const About = () => {
           <BackgroundHeader
             heading={
               <p className="sub-head-title">
-                <span style={{ color: "rgb(249, 147, 27)", fontSize: "6rem" }}>
+                <span style={{ color: "rgb(249, 147, 27)", fontSize: "6rem" }} className="ourstoryhead">
                   Our
                 </span>{" "}
                 Story{" "}
