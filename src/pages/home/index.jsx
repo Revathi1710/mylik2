@@ -10,7 +10,7 @@ import mobilebanner1 from "../../assets/images/home/mb1.png";
 
 import deskbanner1 from "../../assets/images/home/desk3.jpg";
 import tabbanner1 from "../../assets/images/home/banner1t.png";
-import mobilebanner2 from "../../assets/images/home/banner2m.png";
+import mobilebanner2 from "../../assets/images/home/mbb2.png";
 
 import deskbanner2 from "../../assets/images/home/desk1.jpg";
 import tabbanner2 from "../../assets/images/home/banner2t.png";
