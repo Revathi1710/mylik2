@@ -357,7 +357,7 @@ const Products = () => {
             </p>
           </li>
           <li>
-            <img src={LittleMilletVermicelli} alt="product" />
+            <img src={LemonVermicelli} alt="product" />
             <p>
               <span style={{ color: "rgb(249, 147, 27)" }}> Lemon Vermicelli </span>{" "}
              
