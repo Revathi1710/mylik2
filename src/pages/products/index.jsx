@@ -29,6 +29,7 @@ import sambaWheat from "../../assets/images/products/vermicelli/SAMBHA-WHEAT.png
 
 import foxtail from "../../assets/images/products/vermicelli/foxtail.png";
 import milletsVermicelli from "../../assets/images/products/vermicelli/Millets_Vermicelli.png";
+import LemonVermicelli from "../../assets/images/products/vermicelli/LEMON VERMICELLI RESIZED.png"
 
 import FoxtailMilletVermicelli from "../../assets/images/products/vermicelli/FoxtailMilletVermicelli.png";
 import LittleMilletVermicelli from "../../assets/images/products/vermicelli/LittleMilletVermicelli.png";
@@ -347,6 +348,7 @@ const Products = () => {
               </span>{" "}
             </p>
           </li>
+          
           <li>
             <img src={LittleMilletVermicelli} alt="product" />
             <p>
@@ -354,6 +356,14 @@ const Products = () => {
               Vermicelli
             </p>
           </li>
+          <li>
+            <img src={LittleMilletVermicelli} alt="product" />
+            <p>
+              <span style={{ color: "rgb(249, 147, 27)" }}> Lemon Vermicelli </span>{" "}
+             
+            </p>
+          </li>
+         
         </ul>
       </div>
       <div className="millets" ref={snacksRef}>
