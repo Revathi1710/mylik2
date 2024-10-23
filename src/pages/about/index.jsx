@@ -179,6 +179,47 @@ const About = () => {
             </div>{" "}
           </div>
         </div>
+        <div className="vision_mission_wrapper">
+          <img src={edge2} alt="edge" className="right_edge" />
+          <div className="visionmissionContainer">
+          
+            <div className="mission_wrapper">
+              <div className="mission">
+                <BackgroundHeader
+                  heading={
+                    <p>
+                      <span style={{ color: "rgb(249, 147, 27)" }}>Our </span>
+                     Workzone{" "}
+                    </p>
+                  }
+                  background={"MAKERSPACE"}
+                />
+                {/*<img src={mission} alt="vision" />*/}
+              </div>
+              <img src={edge1} alt="edge" className="left_edge" />
+              <div className="content2">
+                <p>
+                A fully automated Wheat Cleaning & Polishing unit by Buhler - Switzerland, with a capacity of 20,000 tons per annum, with the largest Fine - Cleaning technology.
+                 The process of manufacturing of Samba Ravai, starts are a very basic level from PRE-CLEANING, SILO STORAGE, FINE-CLEANING, MILLING, GRADING & PACKING.
+                  In manufacturing Samba Ravai, we prioritize quality by regularly checking nutrient content to ensure protein, fiber, and other nutrients are preserved.  
+               <br></br>
+               <br></br>
+               <br></br>
+             
+                Emmer wheat is used to make the 'Unique Samba Ravai'.MAYIL MARK is dedicated to preserving local culinary traditions and supporting the Kongu community, specializing in artisan Samba Wheat Broken.                                     
+                <br></br>
+               <br></br>
+               <br></br>
+              
+                
+                   We take pride in our distinguished sub-brands: <b>CHAKRA</b>, featuring exquisite green moong; <b>GOLDEN POOJA</b> and <b>POOJA</b>, showcasing premium gram; and <b>DOUBLE  MAYUR</b>-Badri Dhal. Each sub-brand embodies our dedication to quality and tradition.
+                </p>
+                {/* <img src={missionImg} alt="misionImage" className="misionImg" /> */}
+              </div>
+            </div>
+          </div>
+       
+        </div>
       </div>
       <div className="our_team_wrapper">
         <img src={edge1} alt="edge" className="right_edge" />

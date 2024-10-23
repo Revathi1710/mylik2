@@ -493,6 +493,9 @@
             justify-content: center;
             align-items: center;
 
+
+   
+
             p {
               width: 80%;
               text-align: center;
@@ -500,7 +503,8 @@
               line-height: 1.5rem;
             }
           }
-        }
+        
+      }
         .mission_wrapper {
           display: flex;
           flex-direction: column;
@@ -1470,7 +1474,23 @@
   width: 23%;
 }
 }
+.content2 {
+             
+  // background-color: red;
+  // border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:75%;
+  line-height:25px;
+  text-align: center;
+}
+.content2 b{
+  
+    font-weight: bolder;
 
+}
 // Mobile devices (up to 600px)
 @media screen and (max-width: 600px) {
   .sub-head-title{
@@ -1493,6 +1513,21 @@
   }
   .aboutimagemobile{
     display:block;
+  }
+  .content2 {
+             
+    // background-color: red;
+    // border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    line-height:25px;
+    text-align: center;
+  }
+  .our_team_wrapper{
+    margin-top:10px;
   }
   .home_banner1 {
     background-image: url("../images/home/banner1Phone\ \(1\).png"); // Ensure the correct file extension
@@ -1556,7 +1591,7 @@
 }
 .about_us_main_wrapper .our_story_wrapper .about img{
   width: 100%;
-  margin: 30px 0px;
+  margin: 10px 0px;
 }
 .about_us_main_wrapper .our_story_wrapper .about{
   display:block;
@@ -1569,14 +1604,20 @@
 }
 .about_us_main_wrapper .our_team_wrapper {
   width: 90%;
-  margin: 100px auto;
+  margin: 10px auto;
   position: relative;
 }
 .about_us_main_wrapper .our_team_wrapper .team .member{
   width: 23%;
 }
 .bg_header .heading{
-  font-size: 3rem;
+  font-size: 2rem;
+}
+.sub-head-values{
+  text-align: center;
+    display: flex;
+    justify-content: center;
+
 }
 .sub-head-values p{
   font-size: 3rem;
@@ -1586,6 +1627,10 @@
 }
 .about_us_main_wrapper .our_story_wrapper .vision_mission_wrapper .values_wrapper div{
   margin:0px;
+  line-height: 20px;
+}
+.sub-head-values p{
+  font-size: 2rem;
 }
 .about_us_main_wrapper .our_team_wrapper .team .member .pic {
   width: 150px;
